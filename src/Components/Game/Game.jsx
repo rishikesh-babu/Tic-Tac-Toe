@@ -45,9 +45,7 @@ export function Game() {
             </h1>
 
             <div
-                className="text-2xl font-medium mb-5 text-center animate-fadeIn"
-                aria-live="polite"
-            >
+                className="text-2xl font-medium mb-5 text-center">
                 {
                     checkWinner() ? (
                         <div className="text-green-400">

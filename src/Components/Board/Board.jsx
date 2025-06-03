@@ -2,7 +2,7 @@ import { Square } from "../Square/Square";
 
 export function Board({squares, handleClick}) {
     return (
-        <div className="flex flex-col justify-center items-center ">
+        <div className="flex flex-col justify-center items-center">
             <div className="flex">
                 <Square value={squares[0]} handleClick={() => handleClick(0)} />
                 <Square value={squares[1]} handleClick={() => handleClick(1)} />
