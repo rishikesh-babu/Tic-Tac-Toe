@@ -65,7 +65,7 @@ export function Game() {
 
             <button
                 onClick={handleReset}
-                className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-8 py-3 rounded-lg font-semibold shadow-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300"
+                className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white rounded-lg font-semibold shadow-lg transition-all duration-300 focus:outline-none ring-4 sm:ring-0 sm:hover:ring-4 ring-blue-300 ring-offset-2 sm:ring-offset-2 sm:hover:ring-offset-3"
                 aria-label="Reset the game"
             >
                 🔄 Reset Game
