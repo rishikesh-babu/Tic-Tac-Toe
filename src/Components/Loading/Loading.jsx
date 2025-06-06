@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Loading({ onEnter }) {
     return (
-        <div className="bg-violet-400 flex items-center justify-center h-screen flex-col gap-6">
+        <div className="h-[100dvh] bg-violet-400 flex items-center justify-center flex-col gap-6">
             <h1 className="text-3xl font-bold">Welcome to the Game</h1>
             <p className="">Click the button below to start</p>
             <button
